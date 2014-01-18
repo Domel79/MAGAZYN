@@ -1,10 +1,10 @@
-package java.org.example.db.dao;
+package org.example.db.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import java.org.example.db.HsqlUnitOfWork;
-import java.org.example.magazyn.Towar;
+import org.example.db.HsqlUnitOfWork;
+import org.example.magazyn.Towar;
 
 public class HsqlTowarDao extends HsqlDaoBase<Towar> implements TowarDao{
 

@@ -1,10 +1,10 @@
-package java.org.example.db.dao;
+package org.example.db.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import java.org.example.db.HsqlUnitOfWork;
-import java.org.example.magazyn.Magazyn;
+import org.example.db.HsqlUnitOfWork;
+import org.example.magazyn.Magazyn;
 
 public class HsqlMagazynDao extends HsqlDaoBase<Magazyn> implements MagazynDao{
 
