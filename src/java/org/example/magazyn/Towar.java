@@ -1,6 +1,6 @@
-package org.example.magazyn;
+package java.org.example.magazyn;
 
-import org.example.db.EntityBase;
+import java.org.example.db.EntityBase;
 
 public class Towar extends EntityBase{
 	

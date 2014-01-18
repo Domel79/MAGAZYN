@@ -1,4 +1,4 @@
-package org.example.db.dao;
+package java.org.example.db.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,9 +8,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.example.db.DaoBase;
-import org.example.db.EntityBase;
-import org.example.db.HsqlUnitOfWork;
+import java.org.example.db.DaoBase;
+import java.org.example.db.EntityBase;
+import java.org.example.db.HsqlUnitOfWork;
 
 public abstract class HsqlDaoBase<E extends EntityBase> 
 	extends DaoBase<E>{

@@ -1,7 +1,7 @@
-package org.example.db.dao;
+package java.org.example.db.dao;
 
-import org.example.db.Dao;
-import org.example.magazyn.Towar;
+import java.org.example.db.Dao;
+import java.org.example.magazyn.Towar;
 
 public interface TowarDao extends Dao<Towar>{
 	

@@ -1,7 +1,9 @@
-import org.example.db.HsqlUnitOfWork;
-import org.example.db.dao.MagazynDao;
-import org.example.db.dao.HsqlMagazynDao;
-import org.example.magazyn.Magazyn;
+package java;
+
+import java.org.example.db.HsqlUnitOfWork;
+import java.org.example.db.dao.MagazynDao;
+import java.org.example.db.dao.HsqlMagazynDao;
+import java.org.example.magazyn.Magazyn;
 
 
 

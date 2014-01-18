@@ -1,18 +1,16 @@
-package org.example.db.dao;
+package java.org.example.db.dao;
 
-import static org.junit.Assert.*;
-
+import java.org.example.db.HsqlUnitOfWork;
+import java.org.example.magazyn.Magazyn;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.example.db.HsqlUnitOfWork;
-import org.example.magazyn.Magazyn;
-import org.junit.After;
+import static org.junit.Assert.*;
+import org.junit.Test;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.After;
 
 
 public class MagazynDaoTest {
@@ -71,8 +69,8 @@ public class MagazynDaoTest {
 		Magazyn m2 = dao.get(2);
 		Magazyn m3 = dao.get(0);
 		
-		assertNotNull("Zwrócono null mimo ze obiekt jest w bazie",m1);
-		assertNull("Zwrócono wartosc mimo, że nie ma takiego obiektu w bazie",m2);
+		assertNotNull("Zwrocono null mimo ze obiekt jest w bazie",m1);
+		assertNull("Zwrocono wartosc mimo, że nie ma takiego obiektu w bazie",m2);
 		assertTrue(m1.getKod().equals("PODSTAWOWY."));
 		
 		assertEquals(m1.getKod(),"PODSTAWOWY");

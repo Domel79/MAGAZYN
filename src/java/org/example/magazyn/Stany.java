@@ -1,8 +1,8 @@
-package org.example.magazyn;
+package java.org.example.magazyn;
 
 import java.util.List;
 
-import org.example.db.EntityBase;
+import java.org.example.db.EntityBase;
 
 public class Stany extends EntityBase {
 	

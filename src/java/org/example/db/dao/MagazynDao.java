@@ -1,7 +1,7 @@
-package org.example.db.dao;
+package java.org.example.db.dao;
 
-import org.example.db.Dao;
-import org.example.magazyn.Magazyn;
+import java.org.example.db.Dao;
+import java.org.example.magazyn.Magazyn;
 
 public interface MagazynDao extends Dao<Magazyn>{
 	
