@@ -24,7 +24,7 @@ public class HsqlUnitOfWork implements UnitOfWork{
 		{
 			if(connection==null||connection.isClosed())
 				connection = 
-				DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/workdb");
+				DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/magazyn");
 		}catch(SQLException ex)
 		{
 			ex.printStackTrace();
@@ -72,6 +72,8 @@ public class HsqlUnitOfWork implements UnitOfWork{
 					{
 						added.get(ent).persistUpdate(ent);
 					}
+				default:
+					break;
 				}
 			}
 			conn.commit();
